@@ -1,0 +1,23 @@
+img {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+ 
+    animation-name: spinning;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 2s;
+    animation-direction: normal;
+    
+    transform: rotate(360deg);
+}
+
+@keyframes spinning {
+    from { transition: ease;
+        
+    }
+    to { transition: ease-in-out;
+        
+    }
+}
